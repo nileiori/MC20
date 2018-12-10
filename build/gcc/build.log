@@ -1,0 +1,513 @@
+ril/src/ril_atResponse.c: In function 'Ql_RIL_AT_SetErrCode':
+ril/src/ril_atResponse.c:50:1: warning: control reaches end of non-void function [-Wreturn-type]
+ril/src/ril_audio.c: In function 'ATResponse_AUD_handler':
+ril/src/ril_audio.c:398:5: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+ril/src/ril_ble.c: In function 'RIL_BT_Gatsreg':
+ril/src/ril_ble.c:120:9: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+ril/src/ril_ble.c: In function 'RIL_BT_Gatss':
+ril/src/ril_ble.c:168:10: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+ril/src/ril_ble.c: In function 'RIL_BT_Gatsc':
+ril/src/ril_ble.c:245:9: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+ril/src/ril_ble.c: In function 'RIL_BT_Gatsd':
+ril/src/ril_ble.c:311:9: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+ril/src/ril_ble.c: In function 'RIL_BT_Gatsst':
+ril/src/ril_ble.c:381:9: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+ril/src/ril_ble.c: In function 'RIL_BT_Gatsind':
+ril/src/ril_ble.c:461:9: warning: unused variable 'result' [-Wunused-variable]
+ril/src/ril_ble.c: In function 'RIL_BT_Gatsrsp':
+ril/src/ril_ble.c:506:9: warning: unused variable 'result' [-Wunused-variable]
+ril/src/ril_ble.c: In function 'RIL_BT_Gatsl':
+ril/src/ril_ble.c:552:9: warning: unused variable 'result' [-Wunused-variable]
+ril/src/ril_ble.c: In function 'RIL_BT_SetLeTxPwr':
+ril/src/ril_ble.c:590:9: warning: unused variable 'result' [-Wunused-variable]
+ril/src/ril_ble.c: In function 'OnURCHandler_BTGatscon':
+ril/src/ril_ble.c:804:9: warning: unused variable 'err_code' [-Wunused-variable]
+ril/src/ril_ble.c: In function 'RIL_BT_GetLeLocalAddr':
+ril/src/ril_ble.c:863:5: warning: passing argument 3 of 'Ql_RIL_SendATCmd' from incompatible pointer type [enabled by default]
+In file included from ril/src/ril_ble.c:45:0:
+ril/inc/ril.h:163:12: note: expected 'Callback_ATResponse' but argument is of type 'void (*)(char *, u32,  void *)'
+ril/src/ril_ble.c: In function 'OnURCHandler_BTGatwreq':
+ril/src/ril_ble.c:886:9: warning: unused variable 'err_code' [-Wunused-variable]
+ril/src/ril_ble.c: In function 'OnURCHandler_BTGatrreq':
+ril/src/ril_ble.c:920:9: warning: unused variable 'err_code' [-Wunused-variable]
+ril/src/ril_ble.c: In function 'OnURCHandler_BTpxpscon':
+ril/src/ril_ble.c:949:9: warning: unused variable 'err_code' [-Wunused-variable]
+ril/src/ril_ble.c: In function 'OnURCHandler_BTfmpscon':
+ril/src/ril_ble.c:971:9: warning: unused variable 'err_code' [-Wunused-variable]
+ril/src/ril_ble.c: In function 'ATRsp_QBTLEADDR_Hdlr':
+ril/src/ril_ble.c:1355:3: warning: 'return' with a value, in function returning void [enabled by default]
+ril/src/ril_ble.c:1361:5: warning: 'return' with a value, in function returning void [enabled by default]
+ril/src/ril_ble.c:1367:3: warning: 'return' with a value, in function returning void [enabled by default]
+ril/src/ril_ble.c:1372:3: warning: 'return' with a value, in function returning void [enabled by default]
+ril/src/ril_ble.c:1375:2: warning: 'return' with a value, in function returning void [enabled by default]
+ril/src/ril_ble.c: At top level:
+ril/src/ril_ble.c:53:12: warning: 'ATRsp_QBTGatsi_Hdlr' declared 'static' but never defined [-Wunused-function]
+ril/src/ril_bluetooth.c: In function 'OnURCHandler_BTDisconn':
+ril/src/ril_bluetooth.c:1531:10: warning: unused variable 'profileId' [-Wunused-variable]
+ril/src/ril_gps.c: In function 'RIL_GPS_Read':
+ril/src/ril_gps.c:71:5: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_gps.c:36:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_gps.c:71:5: warning: pointer targets in passing argument 1 of 'Ql_strncmp' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_gps.c:36:0:
+include/ql_stdlib.h:52:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_gps.c:84:9: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from ril/src/ril_gps.c:36:0:
+include/ql_stdlib.h:47:7: note: expected 'const char *' but argument is of type 'u8 *'
+ril/src/ril_gps.c: In function 'ATResponse_GPSRead_Hdlr':
+ril/src/ril_gps.c:95:7: warning: unused variable 'strTmp' [-Wunused-variable]
+ril/src/ril_gps.c:93:8: warning: unused variable 'p2' [-Wunused-variable]
+ril/src/ril_gps.c:92:8: warning: unused variable 'p1' [-Wunused-variable]
+ril/src/ril_gps.c: In function 'OnURCHandler_GPSCMD':
+ril/src/ril_gps.c:262:4: warning: passing argument 1 of 'callback_GPSCMD' discards 'const' qualifier from pointer target type [enabled by default]
+ril/src/ril_gps.c:262:4: note: expected 'char *' but argument is of type 'const char *'
+ril/src/ril_network.c: In function 'ATRsp_COPS_Handler':
+ril/src/ril_network.c:501:14: warning: unused variable 'str' [-Wunused-variable]
+ril/src/ril_ntp.c: In function 'OnURCHandler_NTPCMD':
+ril/src/ril_ntp.c:50:4: warning: passing argument 1 of 'callback_NTPCMD' discards 'const' qualifier from pointer target type [enabled by default]
+ril/src/ril_ntp.c:50:4: note: expected 'char *' but argument is of type 'const char *'
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/main.c:29:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/main.c: In function 'proc_main_task':
+custom/main.c:119:2: warning: implicit declaration of function 'init_tcp' [-Wimplicit-function-declaration]
+custom/main.c:77:9: warning: unused variable 'saveTime' [-Wunused-variable]
+custom/main.c: In function 'CallBack_UART_ParaSet_Hdlr':
+custom/main.c:342:14: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/main.c:29:
+include/ql_stdlib.h:55:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/main.c:351:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/main.c:29:
+include/ql_stdlib.h:55:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/main.c:367:7: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/main.c:29:
+include/ql_stdlib.h:55:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/main.c: At top level:
+custom/main.c:405:12: warning: 'ATResponse_Handler' defined but not used [-Wunused-function]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/fota/src/fota_ftp.c:16:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/fota/src/fota_ftp.c: In function 'FTP_FotaMain':
+custom/fota/src/fota_ftp.c:44:9: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c: In function 'FTP_Callback_OnDownload':
+custom/fota/src/fota_ftp.c:83:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c:82:9: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c: In function 'FTP_Program':
+custom/fota/src/fota_ftp.c:124:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_ftp.c: In function 'FTP_Callback_OnDownload':
+custom/fota/src/fota_ftp.c:326:35: warning: 'retValue' may be used uninitialized in this function [-Wmaybe-uninitialized]
+custom/fota/src/fota_ftp.c:209:10: note: 'retValue' was declared here
+custom/fota/src/fota_main.c: In function 'Ql_FOTA_StartUpgrade':
+custom/fota/src/fota_main.c:34:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Adc.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/inc/Blind.h:4,
+                 from custom/user/src/Blind.c:17:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Blind.c: In function 'Blind_DataPack':
+custom/user/src/Blind.c:314:21: warning: unused variable 'pxCirQueue' [-Wunused-variable]
+custom/user/src/Blind.c: In function 'Blind_DataPackUploading':
+custom/user/src/Blind.c:368:2: warning: implicit declaration of function 'RadioProtocol_PostionInformation_BulkUpTrans' [-Wimplicit-function-declaration]
+custom/user/src/Blind.c:348:6: warning: unused variable 'ret' [-Wunused-variable]
+custom/user/src/Blind.c: In function 'Blind_Init':
+custom/user/src/Blind.c:577:6: warning: unused variable 'ret' [-Wunused-variable]
+custom/user/src/Blind.c: In function 'Blind_Link1Save':
+custom/user/src/Blind.c:241:1: warning: control reaches end of non-void function [-Wreturn-type]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/BlindFile.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/BlindFile.c: In function 'CreatBlindFile':
+custom/user/src/BlindFile.c:25:5: warning: 'return' with a value, in function returning void [enabled by default]
+custom/user/src/BlindFile.c:28:2: warning: 'return' with a value, in function returning void [enabled by default]
+custom/user/src/BlindFile.c:8:6: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/ComParam.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/E2ParamApp.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/E2ParamApp.c: In function 'E2ParamApp_ReadOneParam':
+custom/user/src/E2ParamApp.c:260:9: warning: pointer targets in passing argument 1 of 'Version_GetHardwareInformation' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:47:0,
+                 from custom/user/src/E2ParamApp.c:1:
+custom/user/inc/version.h:42:15: note: expected 'unsigned char *' but argument is of type 'char *'
+custom/user/src/E2ParamApp.c:271:10: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/user/src/E2ParamApp.c:1:
+include/ql_stdlib.h:47:7: note: expected 'char *' but argument is of type 'unsigned char *'
+custom/user/src/E2ParamApp.c:283:10: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/user/src/E2ParamApp.c:1:
+include/ql_stdlib.h:47:7: note: expected 'char *' but argument is of type 'unsigned char *'
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/FCT_SelfCheck.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/FCT_SelfCheck.c: In function 'FCT_Response_GetID':
+custom/user/src/FCT_SelfCheck.c:18:2: warning: implicit declaration of function 'EepromPram_ReadPram' [-Wimplicit-function-declaration]
+custom/user/src/FCT_SelfCheck.c:19:2: warning: pointer targets in passing argument 1 of 'Public_ConvertBcdToAsc' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:49:0,
+                 from custom/user/src/FCT_SelfCheck.c:1:
+custom/user/inc/public.h:57:6: note: expected 'unsigned char *' but argument is of type 'char *'
+custom/user/src/FCT_SelfCheck.c: In function 'FCT_Response_GetReportInterval':
+custom/user/src/FCT_SelfCheck.c:50:2: warning: implicit declaration of function 'Report_GetDefaultReportInterval' [-Wimplicit-function-declaration]
+custom/user/src/FCT_SelfCheck.c: In function 'FCT_Response_GetSimCardNum':
+custom/user/src/FCT_SelfCheck.c:68:2: warning: pointer targets in passing argument 1 of 'Public_ConvertBcdToAsc' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:49:0,
+                 from custom/user/src/FCT_SelfCheck.c:1:
+custom/user/inc/public.h:57:6: note: expected 'unsigned char *' but argument is of type 'char *'
+custom/user/src/FCT_SelfCheck.c:61:5: warning: unused variable 'BufferLen' [-Wunused-variable]
+custom/user/src/FCT_SelfCheck.c: In function 'FCT_Response_GetDeviceInfo':
+custom/user/src/FCT_SelfCheck.c:82:2: warning: pointer targets in passing argument 1 of 'Public_ConvertBcdToAsc' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:49:0,
+                 from custom/user/src/FCT_SelfCheck.c:1:
+custom/user/inc/public.h:57:6: note: expected 'unsigned char *' but argument is of type 'char *'
+custom/user/src/FCT_SelfCheck.c:108:2: warning: pointer targets in passing argument 1 of 'Version_GetHardwareInformation' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:47:0,
+                 from custom/user/src/FCT_SelfCheck.c:1:
+custom/user/inc/version.h:42:15: note: expected 'unsigned char *' but argument is of type 'char *'
+custom/user/src/FCT_SelfCheck.c: In function 'FCT_Response_SetID':
+custom/user/src/FCT_SelfCheck.c:166:2: warning: pointer targets in passing argument 2 of 'Public_ConvertAscToBCD' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:49:0,
+                 from custom/user/src/FCT_SelfCheck.c:1:
+custom/user/inc/public.h:46:6: note: expected 'const unsigned char *' but argument is of type 'char *'
+custom/user/src/FCT_SelfCheck.c: In function 'FCT_Response_SetAddr':
+custom/user/src/FCT_SelfCheck.c:178:2: warning: pointer targets in passing argument 2 of 'EepromPram_WritePram' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:48:0,
+                 from custom/user/src/FCT_SelfCheck.c:1:
+custom/user/inc/FilePram.h:351:5: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/FCT_SelfCheck.c: In function 'FCT_Response_SetPort':
+custom/user/src/FCT_SelfCheck.c:190:2: warning: implicit declaration of function 'atol' [-Wimplicit-function-declaration]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/FilePram.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/FilePram.c: In function 'E2prom_WriteBytes':
+custom/user/src/FilePram.c:244:5: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+custom/user/src/FilePram.c: In function 'EepromPram_UpdateVariable':
+custom/user/src/FilePram.c:537:4: warning: implicit declaration of function 'HeartBeat_UpdatePram' [-Wimplicit-function-declaration]
+custom/user/src/FilePram.c:560:4: warning: implicit declaration of function 'Report_UpdatePram' [-Wimplicit-function-declaration]
+custom/user/src/FilePram.c:654:5: warning: implicit declaration of function 'UpSmsMonitorPhoNum' [-Wimplicit-function-declaration]
+custom/user/src/FilePram.c: In function 'FRAM_BufferWrite':
+custom/user/src/FilePram.c:287:1: warning: control reaches end of non-void function [-Wreturn-type]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/GPIOControl.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Gps_App.c:39:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Gps_App.c: In function 'GPS_DataFilter':
+custom/user/src/Gps_App.c:1237:5: warning: implicit declaration of function 'abs' [-Wimplicit-function-declaration]
+custom/user/src/Gps_App.c: In function 'Gps_TimeTask':
+custom/user/src/Gps_App.c:1573:17: warning: unused variable 'AccOffCount' [-Wunused-variable]
+custom/user/src/Gps_App.c:1572:17: warning: unused variable 'AccOnCount' [-Wunused-variable]
+custom/user/src/Gps_App.c: At top level:
+custom/user/src/Gps_App.c:42:12: warning: 'GprmcVerifyErrorCount' defined but not used [-Wunused-variable]
+custom/user/src/Gps_App.c:43:12: warning: 'GpggaVerifyErrorCount' defined but not used [-Wunused-variable]
+custom/user/src/Gps_App.c:48:11: warning: 'StopExcursionEnable' defined but not used [-Wunused-variable]
+custom/user/src/Gps_App.c: In function 'Gps_DataIsOk':
+custom/user/src/Gps_App.c:185:20: warning: 'j' may be used uninitialized in this function [-Wmaybe-uninitialized]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Gps_Drive.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Gps_Drive.c: In function 'Callback_Timer_GPS':
+custom/user/src/Gps_Drive.c:163:7: warning: unused variable 'ret' [-Wunused-variable]
+custom/user/src/Gps_Drive.c:184:22: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+custom/user/src/Gps_Drive.c:200:6: warning: implicit declaration of function 'RIL_GPS_Read_TimeSync_Status' [-Wimplicit-function-declaration]
+custom/user/src/Gps_Drive.c:210:8: warning: implicit declaration of function 'RIL_NTP_START' [-Wimplicit-function-declaration]
+custom/user/src/Gps_Drive.c:289:7: warning: implicit declaration of function 'reference_location' [-Wimplicit-function-declaration]
+custom/user/src/Gps_Drive.c:300:7: warning: implicit declaration of function 'RIL_GPS_EPO_Enable' [-Wimplicit-function-declaration]
+custom/user/src/Gps_Drive.c:337:6: warning: implicit declaration of function 'RIL_GPS_Read' [-Wimplicit-function-declaration]
+custom/user/src/Gps_Drive.c:338:6: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/user/src/Gps_Drive.c:1:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/user/src/Gps_Drive.c: In function 'Callback_NTP':
+custom/user/src/Gps_Drive.c:389:7: warning: unused variable 'ntpResult' [-Wunused-variable]
+custom/user/src/Gps_Drive.c: At top level:
+custom/user/src/Gps_Drive.c:417:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Gps_Drive.c: In function 'reference_location':
+custom/user/src/Gps_Drive.c:420:2: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+custom/user/src/Gps_Drive.c:420:2: note: expected 'char *' but argument is of type 'u8 *'
+custom/user/src/Gps_Drive.c:422:2: warning: pointer targets in passing argument 1 of 'Ql_RIL_SendATCmd' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:33:0,
+                 from custom/user/src/Gps_Drive.c:1:
+ril/inc/ril.h:163:12: note: expected 'char *' but argument is of type 'u8 *'
+custom/user/src/Gps_Drive.c: In function 'GpsReciveData':
+custom/user/src/Gps_Drive.c:478:15: warning: unused variable 'ret' [-Wunused-variable]
+custom/user/src/Gps_Drive.c: In function 'Gps_NMEA_Hdlr':
+custom/user/src/Gps_Drive.c:674:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/user/src/Gps_Drive.c:1:
+include/ql_stdlib.h:55:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/user/src/Gps_Drive.c:674:7: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+custom/user/src/Gps_Drive.c:677:9: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/user/src/Gps_Drive.c:1:
+include/ql_stdlib.h:55:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/user/src/Gps_Drive.c:677:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+custom/user/src/Gps_Drive.c:827:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/user/src/Gps_Drive.c:1:
+include/ql_stdlib.h:55:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/user/src/Gps_Drive.c:827:7: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+custom/user/src/Gps_Drive.c:830:9: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/user/src/Gps_Drive.c:1:
+include/ql_stdlib.h:55:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/user/src/Gps_Drive.c:830:11: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/HeartBeat.c:13:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/HeartBeat.c: In function 'HeartBeat_UpdatePram':
+custom/user/src/HeartBeat.c:86:2: warning: implicit declaration of function 'EepromPram_ReadPram' [-Wimplicit-function-declaration]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Io.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Io.c: In function 'Io_UpdataPram':
+custom/user/src/Io.c:85:2: warning: implicit declaration of function 'EepromPram_ReadPram' [-Wimplicit-function-declaration]
+custom/user/src/Io.c: At top level:
+custom/user/src/Io.c:537:1: warning: "/*" within comment [-Wcomment]
+custom/user/src/Io.c: In function 'Io_ScanIoStatusAndAlarm':
+custom/user/src/Io.c:827:8: warning: variable 'Acc' set but not used [-Wunused-but-set-variable]
+custom/user/src/Io.c: In function 'Io_DisposeLEDAndBeep':
+custom/user/src/Io.c:920:6: warning: "/*" within comment [-Wcomment]
+custom/user/src/Io.c:922:6: warning: "/*" within comment [-Wcomment]
+custom/user/src/Io.c:1028:6: warning: "/*" within comment [-Wcomment]
+custom/user/src/Io.c: At top level:
+custom/user/src/Io.c:6:12: warning: 'CameraStatu' defined but not used [-Wunused-variable]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/LedCtr.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/LedCtr.c: In function 'LedControlCallback':
+custom/user/src/LedCtr.c:204:3: warning: label 'LED_STATUS_POWER_NORMAL' defined but not used [-Wunused-label]
+custom/user/src/LedCtr.c: In function 'LowVol_UpdatePram':
+custom/user/src/LedCtr.c:246:2: warning: implicit declaration of function 'EepromPram_ReadPram' [-Wimplicit-function-declaration]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/MileMeter.c:19:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/MileMeter.c: In function 'GpsMile_UpdatePram':
+custom/user/src/MileMeter.c:297:2: warning: implicit declaration of function 'EepromPram_ReadPram' [-Wimplicit-function-declaration]
+custom/user/src/MileMeter.c: In function 'GpsMile_TimeTask':
+custom/user/src/MileMeter.c:389:12: warning: 'RunState' may be used uninitialized in this function [-Wmaybe-uninitialized]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/PowerDown_Manage.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Public.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/RadioProtocol.c:3:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/RadioProtocol.c: In function 'RadioProtocol_TerminalRegisterAck':
+custom/user/src/RadioProtocol.c:212:2: warning: implicit declaration of function 'EepromPram_ReadPram' [-Wimplicit-function-declaration]
+custom/user/src/RadioProtocol.c: In function 'RadioProtocol_PramSearch':
+custom/user/src/RadioProtocol.c:290:5: warning: value computed is not used [-Wunused-value]
+custom/user/src/RadioProtocol.c: In function 'RadioProtocol_TerminalControl':
+custom/user/src/RadioProtocol.c:327:8: warning: unused variable 'ControlLinkWord' [-Wunused-variable]
+custom/user/src/RadioProtocol.c: In function 'RadioProtocol_TerminalRegister':
+custom/user/src/RadioProtocol.c:1130:6: warning: unused variable 'ID' [-Wunused-variable]
+custom/user/src/RadioProtocol.c:1128:5: warning: unused variable 'value' [-Wunused-variable]
+custom/user/src/RadioProtocol.c:1127:5: warning: unused variable 'BcdLow' [-Wunused-variable]
+custom/user/src/RadioProtocol.c:1126:5: warning: unused variable 'BcdHigh' [-Wunused-variable]
+custom/user/src/RadioProtocol.c:1123:5: warning: unused variable 'SmsPhone' [-Wunused-variable]
+custom/user/src/RadioProtocol.c:1121:5: warning: unused variable 'Buffer3' [-Wunused-variable]
+custom/user/src/RadioProtocol.c:1118:6: warning: unused variable 'q' [-Wunused-variable]
+custom/user/src/RadioProtocol.c: In function 'RadioProtocol_FirmwareUpdataResultNote':
+custom/user/src/RadioProtocol.c:1286:6: warning: unused variable 'SmsPhone' [-Wunused-variable]
+custom/user/src/RadioProtocol.c: In function 'RadioProtocol_PostionInformationReport':
+custom/user/src/RadioProtocol.c:1338:5: warning: unused variable 'SmsPhone' [-Wunused-variable]
+custom/user/src/RadioProtocol.c: In function 'RadioProtocol_OriginalDataUpTrans':
+custom/user/src/RadioProtocol.c:1424:8: warning: unused variable 'SmsPhone' [-Wunused-variable]
+custom/user/src/RadioProtocol.c: In function 'RadioProtocol_DataCompressUpTrans':
+custom/user/src/RadioProtocol.c:1472:5: warning: unused variable 'SmsPhone' [-Wunused-variable]
+custom/user/src/RadioProtocol.c: In function 'RadioProtocol_ProtocolParse':
+custom/user/src/RadioProtocol.c:1862:5: warning: implicit declaration of function 'Heartbeat_ClrHeartbeatCount' [-Wimplicit-function-declaration]
+custom/user/src/RadioProtocol.c: At top level:
+custom/user/src/RadioProtocol.c:22:22: warning: 's_ucRecvTimeCnt' defined but not used [-Wunused-variable]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Report.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Report.c: In function 'Report_TimeTask':
+custom/user/src/Report.c:438:3: warning: implicit declaration of function 'RIL_NW_GetCell' [-Wimplicit-function-declaration]
+custom/user/src/Report.c:335:13: warning: variable 'OnlineOvertimeCnt' set but not used [-Wunused-but-set-variable]
+custom/user/src/Report.c:331:13: warning: variable 'LastTimeCount' set but not used [-Wunused-but-set-variable]
+custom/user/src/Report.c:330:19: warning: unused variable 'crc32Verify' [-Wunused-variable]
+custom/user/src/Report.c:330:6: warning: unused variable 'CurTimeCount' [-Wunused-variable]
+custom/user/src/Report.c:328:5: warning: unused variable 'TempBuffer' [-Wunused-variable]
+custom/user/src/Report.c:327:5: warning: variable 'Ack' set but not used [-Wunused-but-set-variable]
+custom/user/src/Report.c: In function 'DelayTrigTimeTask':
+custom/user/src/Report.c:601:13: warning: implicit declaration of function 'RadioProtocol_OriginalDataUpTrans' [-Wimplicit-function-declaration]
+custom/user/src/Report.c: In function 'Report_UpdatePram':
+custom/user/src/Report.c:639:3: warning: implicit declaration of function 'EepromPram_ReadPram' [-Wimplicit-function-declaration]
+custom/user/src/Report.c: In function 'Report_UpdateOnePram':
+custom/user/src/Report.c:713:9: warning: unused variable 'TcpPort' [-Wunused-variable]
+custom/user/src/Report.c:712:8: warning: unused variable 'BufferLen' [-Wunused-variable]
+custom/user/src/Report.c: In function 'Report_GetPositionStdAdditionalInfo':
+custom/user/src/Report.c:1195:6: warning: unused variable 'temp2' [-Wunused-variable]
+custom/user/src/Report.c: In function 'Report_GetPositionEiAdditionalInfo':
+custom/user/src/Report.c:1330:2: warning: implicit declaration of function 'PackgQENG_Info' [-Wimplicit-function-declaration]
+custom/user/src/Report.c: At top level:
+custom/user/src/Report.c:33:12: warning: 'AccOnReportTimeSpace' defined but not used [-Wunused-variable]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Ril_cell.c:11:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Ril_cell.c:19:8: warning: excess elements in array initializer [enabled by default]
+custom/user/src/Ril_cell.c:19:8: warning: (near initialization for 'Bsic_info') [enabled by default]
+custom/user/src/Ril_cell.c: In function 'PackgQENG_Info':
+custom/user/src/Ril_cell.c:196:11: warning: unused variable 'j' [-Wunused-variable]
+custom/user/src/Ril_cell.c: In function 'ATResponse_QENG_Handler':
+custom/user/src/Ril_cell.c:249:5: warning: pointer targets in passing argument 1 of 'SynServingCellQeng' differ in signedness [-Wpointer-sign]
+custom/user/src/Ril_cell.c:95:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Ril_cell.c:253:5: warning: pointer targets in passing argument 1 of 'SynNeighboringCellQeng' differ in signedness [-Wpointer-sign]
+custom/user/src/Ril_cell.c:127:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Ril_cell.c:238:19: warning: unused variable 'QENG_Reponse' [-Wunused-variable]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/SleepCtr.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/SleepCtr.c:13:4: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Sms.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Sms.c: In function 'AsicToUnicode':
+custom/user/src/Sms.c:76:14: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c: In function 'Sms_Set_TextAlarmPhone':
+custom/user/src/Sms.c:153:2: warning: implicit declaration of function 'EepromPram_ReadPram' [-Wimplicit-function-declaration]
+custom/user/src/Sms.c:154:2: warning: pointer targets in passing argument 2 of 'ModLib_AtCmp' differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c:121:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c:158:3: warning: passing argument 2 of 'EepromPram_WritePram' discards 'const' qualifier from pointer target type [enabled by default]
+In file included from custom/user/inc/include.h:48:0,
+                 from custom/user/src/Sms.c:1:
+custom/user/inc/FilePram.h:351:5: note: expected 'u8 *' but argument is of type 'const char *'
+custom/user/src/Sms.c:162:5: warning: pointer targets in passing argument 2 of 'ModLib_AtCmp' differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c:121:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c: In function 'Sms_Set_Ip':
+custom/user/src/Sms.c:255:5: warning: implicit declaration of function 'atoi' [-Wimplicit-function-declaration]
+custom/user/src/Sms.c:261:5: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:23:0,
+                 from custom/user/src/Sms.c:1:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/user/src/Sms.c: In function 'Sms_Set_DevicePhone':
+custom/user/src/Sms.c:314:5: warning: implicit declaration of function 'ModLib_StrByte' [-Wimplicit-function-declaration]
+custom/user/src/Sms.c: In function 'Sms_Set_ReportTime':
+custom/user/src/Sms.c:336:2: warning: implicit declaration of function 'Report_UpdatePram' [-Wimplicit-function-declaration]
+custom/user/src/Sms.c:353:2: warning: pointer targets in passing argument 3 of 'SMS_TextMode_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:72:0,
+                 from custom/user/src/Sms.c:1:
+custom/user/inc/Sms.h:70:6: note: expected 'char *' but argument is of type 'u8 *'
+custom/user/src/Sms.c: In function 'Sms_Check_DevicePram':
+custom/user/src/Sms.c:406:2: warning: pointer targets in passing argument 3 of 'SMS_TextMode_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:72:0,
+                 from custom/user/src/Sms.c:1:
+custom/user/inc/Sms.h:70:6: note: expected 'char *' but argument is of type 'u8 *'
+custom/user/src/Sms.c: In function 'SmsDataCheck':
+custom/user/src/Sms.c:492:5: warning: pointer targets in passing argument 2 of 'ModLib_AtCmp' differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c:121:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c:499:4: warning: pointer targets in passing argument 2 of 'ModLib_AtCmp' differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c:121:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c:499:4: warning: pointer targets in passing argument 2 of 'ModLib_AtCmp' differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c:121:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c:503:4: warning: pointer targets in passing argument 2 of 'ModLib_AtCmp' differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c:121:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c:507:7: warning: pointer targets in passing argument 2 of 'ModLib_AtCmp' differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c:121:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c:511:4: warning: pointer targets in passing argument 2 of 'ModLib_AtCmp' differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c:121:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c:515:5: warning: passing argument 2 of 'EepromPram_WritePram' discards 'const' qualifier from pointer target type [enabled by default]
+In file included from custom/user/inc/include.h:48:0,
+                 from custom/user/src/Sms.c:1:
+custom/user/inc/FilePram.h:351:5: note: expected 'u8 *' but argument is of type 'const char *'
+custom/user/src/Sms.c:525:4: warning: pointer targets in passing argument 2 of 'ModLib_AtCmp' differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c:121:6: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c: In function 'SMS_Initialize':
+custom/user/src/Sms.c:793:9: warning: unused variable 'nTotal' [-Wunused-variable]
+custom/user/src/Sms.c:792:9: warning: unused variable 'nUsed' [-Wunused-variable]
+custom/user/src/Sms.c:791:9: warning: unused variable 'nCurrStorage' [-Wunused-variable]
+custom/user/src/Sms.c: In function 'SMS_TextMode_Send':
+custom/user/src/Sms.c:854:5: warning: pointer targets in passing argument 4 of 'RIL_SMS_SendSMS_Text' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/Sms.h:4:0,
+                 from custom/user/inc/include.h:72,
+                 from custom/user/src/Sms.c:1:
+ril/inc/ril_sms.h:316:12: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c: In function 'MOD_GetIccidBcdValue':
+custom/user/src/Sms.c:1172:5: warning: pointer targets in passing argument 1 of 'ModLib_StrByte' differ in signedness [-Wpointer-sign]
+custom/user/src/Sms.c:1143:5: note: expected 'const u8 *' but argument is of type 'char *'
+custom/user/src/Sms.c: At top level:
+custom/user/src/Sms.c:1088:13: warning: 'InitSerialPort' defined but not used [-Wunused-function]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/SysCtrl.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/SysCtrl.c: In function 'proc_sysCtrl_task':
+custom/user/src/SysCtrl.c:57:9: warning: implicit declaration of function 'DelayTrigTimeTask' [-Wimplicit-function-declaration]
+custom/user/src/SysCtrl.c:84:6: warning: comparisons like 'X<=Y<=Z' do not have their mathematical meaning [-Wparentheses]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/SystemInit.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/SystemInit.c: In function 'CheckFirstPowerOn':
+custom/user/src/SystemInit.c:97:6: warning: unused variable 'ret' [-Wunused-variable]
+custom/user/src/SystemInit.c:96:9: warning: unused variable 'temp' [-Wunused-variable]
+custom/user/src/SystemInit.c: In function 'PowerOnUpdata':
+custom/user/src/SystemInit.c:162:5: warning: implicit declaration of function 'HeartBeat_UpdatePram' [-Wimplicit-function-declaration]
+custom/user/src/SystemInit.c:165:5: warning: implicit declaration of function 'RadioProtocol_UpdateTerminalPhoneNum' [-Wimplicit-function-declaration]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Taskschedule.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Taskschedule.c:4:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Taskschedule.c:5:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Taskschedule.c:48:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Taskschedule.c:60:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Taskschedule.c:246:17: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Taskschedule.c:258:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/tcp_log.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/tcp_log.c:47:3: warning: missing braces around initializer [-Wmissing-braces]
+custom/user/src/tcp_log.c:47:3: warning: (near initialization for 'net_info.mode') [-Wmissing-braces]
+custom/user/src/tcp_log.c: In function 'Timer_Callback':
+custom/user/src/tcp_log.c:166:8: warning: implicit declaration of function 'Report_RtcWakeUpOffsetSave' [-Wimplicit-function-declaration]
+custom/user/src/tcp_log.c: In function 'socket_write_callback':
+custom/user/src/tcp_log.c:733:9: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/user/inc/include.h:27:0,
+                 from custom/user/src/tcp_log.c:1:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/user/src/tcp_log.c: In function 'Link1Login_TimeTask':
+custom/user/src/tcp_log.c:920:7: warning: implicit declaration of function 'EepromPram_ReadPram' [-Wimplicit-function-declaration]
+custom/user/src/tcp_log.c:935:7: warning: implicit declaration of function 'RadioProtocol_TerminalRegister' [-Wimplicit-function-declaration]
+custom/user/src/tcp_log.c:969:7: warning: implicit declaration of function 'RadioProtocol_TerminalQualify' [-Wimplicit-function-declaration]
+custom/user/src/tcp_log.c: In function 'Communication_SndMsg2Svr':
+custom/user/src/tcp_log.c:1222:7: warning: unused variable 'ackNum' [-Wunused-variable]
+custom/user/src/tcp_log.c: In function 'Net_First_Value':
+custom/user/src/tcp_log.c:1304:9: warning: unused variable 'id_ip' [-Wunused-variable]
+custom/user/src/tcp_log.c: At top level:
+custom/user/src/tcp_log.c:15:12: warning: 'TCP_error_time' defined but not used [-Wunused-variable]
+custom/user/src/tcp_log.c:59:11: warning: 'm_send_buf' defined but not used [-Wunused-variable]
+custom/user/src/tcp_log.c:124:13: warning: 'checkErr_AckNumber' defined but not used [-Wunused-function]
+custom/user/src/tcp_log.c: In function 'socket_connect_callback':
+custom/user/src/tcp_log.c:575:5: warning: 'ret' may be used uninitialized in this function [-Wuninitialized]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Time.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Time.c:3:12: warning: 'CurTimeID' defined but not used [-Wunused-variable]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/UpdateFirmware.c:1:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/UpdateFirmware.c: In function 'ftp_downfile_timer':
+custom/user/src/UpdateFirmware.c:23:21: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+custom/user/src/UpdateFirmware.c:23:21: note: expected 'char *' but argument is of type 'u8 *'
+custom/user/src/UpdateFirmware.c:26:5: warning: implicit declaration of function 'Ql_FOTA_StartUpgrade' [-Wimplicit-function-declaration]
+custom/user/src/UpdateFirmware.c: In function 'Updata_SendResultNoteTimeTask':
+custom/user/src/UpdateFirmware.c:136:13: warning: implicit declaration of function 'RadioProtocol_FirmwareUpdataResultNote' [-Wimplicit-function-declaration]
+custom/user/src/UpdateFirmware.c: In function 'Net_Ftp_Parameter':
+custom/user/src/UpdateFirmware.c:259:20: warning: pointer targets in passing argument 1 of 'Ql_sprintf' differ in signedness [-Wpointer-sign]
+custom/user/src/UpdateFirmware.c:259:20: note: expected 'char *' but argument is of type 'u8 *'
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Version.c:16:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+In file included from custom/user/inc/include.h:71:0,
+                 from custom/user/src/Watchdog.c:48:
+custom/user/inc/SleepCtr.h:10:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/user/src/Watchdog.c: In function 'WDG_Hard_Init':
+custom/user/src/Watchdog.c:61:9: warning: unused variable 'wtdid' [-Wunused-variable]
